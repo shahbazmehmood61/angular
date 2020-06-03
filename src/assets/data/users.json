@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "name": "Umair Zahid",
+    "class": "D Pharm"
+  },
+  {
+    "id": 2,
+    "name": "Adnan Razzaq",
+    "class": "Intermediate"
+  },
+  {
+    "id": 1,
+    "name": "Shahaz mehmood",
+    "class": "Graduated"
+  },
+  {
+    "id": 1,
+    "name": "Ahmad ali",
+    "class": "Under Matric"
+  }
+]
