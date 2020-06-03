@@ -1,18 +1,26 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { FormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { TwoWayBindingComponent } from './two-way-binding/two-way-binding.component';
+import { IfStructureComponent } from './if-structure/if-structure.component';
+import { SwitchStructureComponent } from './switch-structure/switch-structure.component';
+import { ForStructureComponent } from './for-structure/for-structure.component';
+import { PipesComponent } from './pipes/pipes.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    TwoWayBindingComponent,
+    IfStructureComponent,
+    SwitchStructureComponent,
+    ForStructureComponent,
+    PipesComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
+  imports: [BrowserModule, AppRoutingModule, FormsModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
